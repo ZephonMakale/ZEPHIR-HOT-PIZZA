@@ -216,40 +216,50 @@
         </div>
       </div>
 
-      <form action="" method="POST" name="myForm" id="myForm">
+      <form name="myForm" class="custom-custom-select">
         <h1>Place your order</h1>
-        <div>
-          <label for="sizes">Pizza Sizes</label>
+        <div class="form-group">
+          <label for="number">Pizza Sizes</label>
+          <input
+            type="mumber"
+            class="form-control"
+            id="sizes"
+            name="sizes"
+            placeholder="Pizza Sizes "
+          />
           <select id="sizes">
-            <option>Large Pizza Ksh950</option>
-            <option>Small Pizza Ksh550</option>
-            <option>Medium Pizza Ksh750</option>
+            <option value="950">Large</option>
+            <option value="750">Medium</option>
+            <option value="550">Small</option>
           </select>
-        </div>
 
-        <div>
-          <label for="toppings">Pizza Toppings</label>
-          <select id="toppings">
-            <option>Pepperoni</option>
-            <option>Bacon Mushroom</option>
-            <option>Hawaiian</option>
-          </select>
         </div>
-        <div>
-          <label for="crust">Pizza Crust</label>
+        <div class="form-group">
+          <label for="month">Pizza toppings</label>
+          <input
+            type="number"
+            class="form-control"
+            id="toppings"
+            placeholder="Pizza toppings"
+            name="toppings"
+          />
+        </div>
+        <div class="form-group">
+          <label for="date">Pizza Crust</label>
+          <input
+            type="number"
+            class="form-control"
+            id="crust"
+            placeholder="Type of crust"
+            name="crust"
+          />
           <select id="crust">
             <option>Crispy</option>
             <option>Glutten free</option>
             <option>Stuffed</option>
           </select>
         </div>
-
-        <h3>Cost</h3>
-        <div>Ksh<input type="text" id="cost" value="0" readonly size="3" /></div>
-
-        <div>
-          <button type="submit">Checkout</button>
-        </div>
+        <button class="btn btn-primary" onclick="myFunction();">Checkout</button>
       </form>
     </div>
   </body>
