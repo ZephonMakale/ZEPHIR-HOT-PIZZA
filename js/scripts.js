@@ -24,9 +24,17 @@
 // });
 
 function myFunction() {
-  const size = document.getElementById("sizes").value;
+  var size = parseInt(document.getElementById("sizes").value);
+  
+  var toppings = parseInt(document.getElementById("toppings").value);
+ 
+  var crust = parseInt(document.getElementById("crusts").value);
+  
+  var delivery = parseInt(document.getElementById("delivery").value);
 
-  const toppings = document.getElementById("toppings").value;
-
-  const crust = document.getElementById("crusts").value;
+  var quantities = parseInt(document.getElementById("quantity").value);
+  
+  var totalCost = (delivery + size + toppings + crust) * quantities ;
+  alert(totalCost);
+  
 }
