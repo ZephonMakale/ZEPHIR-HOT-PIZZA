@@ -32,3 +32,9 @@
 .size{
   padding-top: 2em;
 }
+.size-img{
+  height: 426;
+}
+.card-title{
+  text-align: center;
+}
