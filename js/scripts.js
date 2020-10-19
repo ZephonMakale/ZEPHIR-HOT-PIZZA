@@ -11,6 +11,7 @@ function myFunction() {
   var quantities = parseInt(document.getElementById("quantity").value);
   
   var totalCost = (delivery + size + toppings + crust) * quantities ;
-  alert(totalCost);
+alert("Your total amount charged for the order " + totalCost)
   
 }
+ 
