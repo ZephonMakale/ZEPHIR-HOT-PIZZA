@@ -23,10 +23,10 @@
 //       }
 // });
 
-  function myFunction() {
-    const size = document.getElementById("sizes").value;
-    alert(size);
-    const toppings = document.getElementById("toppings").value;
-    const crust = getElementById("crust").value;
-  }
+function myFunction() {
+  const size = document.getElementById("sizes").value;
 
+  const toppings = document.getElementById("toppings").value;
+
+  const crust = document.getElementById("crusts").value;
+}

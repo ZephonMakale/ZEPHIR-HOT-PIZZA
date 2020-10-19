@@ -9,7 +9,6 @@
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
   display: flex;
   height: 100px;
-  
 }
 
 .nav-items {
@@ -17,25 +16,23 @@
   padding: 20px;
   padding-left: 400px;
 }
-.pizza-sizes{
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    
+.pizza-sizes {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
 }
-.pizza-sizes{
+.pizza-sizes {
   padding-top: 1.5%;
   background-color: white;
   box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1);
 }
 
-.size{
+.size {
   padding-top: 2em;
 }
-.size-img{
+.size-img {
   height: 426;
 }
-.card-title{
+.card-title {
   text-align: center;
 }
-

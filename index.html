@@ -13,6 +13,7 @@
     <script src="./js/scripts.js"></script>
     <title>ZEPHIR PIZZA</title>
   </head>
+
   <body>
     <div class="container-fluid">
       <div class="body-contents">
@@ -27,13 +28,19 @@
 
       <div class="pizza-sizes">
         <div class="pizza-sizes-1">
-          <a href="#"><p>Small Pizzas</p></a>
+          <a href="#">
+            <p>Small Pizzas</p>
+          </a>
         </div>
         <div class="pizza-sizes-2">
-          <a href="#"><p>Medium Pizzas</p></a>
+          <a href="#">
+            <p>Medium Pizzas</p>
+          </a>
         </div>
         <div class="pizza-sizes-3">
-          <a href="#"><p>Large Pizzas</p></a>
+          <a href="#">
+            <p>Large Pizzas</p>
+          </a>
         </div>
       </div>
 
@@ -170,11 +177,12 @@
           </div>
         </div>
       </div>
-
+      <br />
+      <hr />
       <form name="myForm" class="custom-custom-select">
         <h1>Place your order</h1>
         <div class="form-group">
-          <label for="number">Pizza Sizes</label>
+          <label for="sizes">Pizza Sizes</label>
 
           <select id="sizes">
             <option value="950">Large</option>
@@ -183,7 +191,7 @@
           </select>
         </div>
         <div class="form-group">
-          <label for="month">Pizza toppings</label>
+          <label for="toppings">Pizza toppings</label>
           <select id="toppings">
             <option>Bacon Mushroom</option>
             <option>Hawaiian</option>
@@ -191,18 +199,29 @@
           </select>
         </div>
         <div class="form-group">
-          <label for="date">Pizza Crust</label>
+          <label for="crust">Pizza Crust</label>
 
-          <select id="crust">
+          <select id="crusts">
             <option>Crispy</option>
             <option>Glutten free</option>
             <option>Stuffed</option>
           </select>
         </div>
+        <div class="form-group">
+          <label for="crust">Do you want it delivered?</label>
+          <select id="delivery">
+            <option>Delivery</option>
+            <option>Pick up</option>
+          </select>
+        </div>
+        <!-- <div class="form-group">
+        <label for="location">Delivery location</label>
+      </div> -->
         <button class="btn btn-primary" onclick="myFunction();">
           Checkout
         </button>
       </form>
+      <hr />
     </div>
   </body>
 </html>
