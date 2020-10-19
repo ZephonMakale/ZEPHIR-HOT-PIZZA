@@ -185,6 +185,7 @@
           <label for="sizes">Pizza Sizes</label>
 
           <select id="sizes">
+            <option value=""></option>
             <option value="950">Large</option>
             <option value="750">Medium</option>
             <option value="550">Small</option>
@@ -193,30 +194,45 @@
         <div class="form-group">
           <label for="toppings">Pizza toppings</label>
           <select id="toppings">
-            <option>Bacon Mushroom</option>
-            <option>Hawaiian</option>
-            <option>Pepperoni</option>
+            <option value=""></option>
+            <option value="100">Bacon Mushroom @Ksh. 100</option>
+            <option value="150">Hawaiian @Ksh. 150</option>
+            <option value="200">Pepperoni @Ksh. 200 </option>
           </select>
         </div>
         <div class="form-group">
           <label for="crust">Pizza Crust</label>
 
           <select id="crusts">
-            <option>Crispy</option>
-            <option>Glutten free</option>
-            <option>Stuffed</option>
+            <option value=""></option>
+            <option value="150">Crispy @Ksh. 150</option>
+            <option value="200">Glutten free @Ksh. 200</option>
+            <option value="250">Stuffed @Ksh. 250</option>
           </select>
         </div>
         <div class="form-group">
-          <label for="crust">Do you want it delivered?</label>
+          <label for="delivery">Do you want it delivered?</label>
           <select id="delivery">
-            <option>Delivery</option>
-            <option>Pick up</option>
+            <option value=""></option>
+            <option value="200">Delivery @Ksh 200</option>
+            <!-- <option value=" ">Pick up <em>free</em> </option> -->
           </select>
         </div>
-        <!-- <div class="form-group">
-        <label for="location">Delivery location</label>
-      </div> -->
+        <div class="form-group">
+        <label for="quantity">Quantity</label>
+        <select id="quantity">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+
+        </select>
+      </div>
+
         <button class="btn btn-primary" onclick="myFunction();">
           Checkout
         </button>
