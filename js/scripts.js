@@ -22,11 +22,11 @@
 //         return false;
 //       }
 // });
-$(document).ready(function () {
+
   function myFunction() {
     const size = document.getElementById("sizes").value;
     alert(size);
     const toppings = document.getElementById("toppings").value;
     const crust = getElementById("crust").value;
   }
-});
+
