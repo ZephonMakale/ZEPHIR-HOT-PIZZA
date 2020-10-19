@@ -27,6 +27,8 @@
     const size = document.getElementById("sizes").value;
     alert(size);
     const toppings = document.getElementById("toppings").value;
-    const crust = getElementById("crust").value;
+    alert(toppings);
+    const crust = document.getElementById("crusts").value;
+    alert(crust);
   }
 
